@@ -1,0 +1,21 @@
+# Dependencias y build
+node_modules/
+dist/
+
+# Entornos
+.env
+.env.*
+!.env.example
+
+# Jacaranda runtime (nunca commitear)
+.jacaranda/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
